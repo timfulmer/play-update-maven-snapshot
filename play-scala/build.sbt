@@ -2,7 +2,7 @@ name := "play-scala"
 
 version := "1.0-SNAPSHOT"
 
-resolvers += "Local Maven Repository" at "file://"+Path.userHome.absolutePath+"/.m2/repository"
+resolvers += Resolver.mavenLocal
 
 libraryDependencies ++= Seq(
   jdbc,
